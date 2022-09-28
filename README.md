@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+# BeerBotClub Splitter Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This contract was deployed on Polygon Mumbai Tesnet
 
-Try running some of the following tasks:
+Contract address = 0xe7B94abfc8F0e25DcB89985E9c4583aFb1C0F1D1
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+intract with it in explorer [https://mumbai.polygonscan.com/address/0xe7B94abfc8F0e25DcB89985E9c4583aFb1C0F1D1#writeContract](https://mumbai.polygonscan.com/address/0xe7B94abfc8F0e25DcB89985E9c4583aFb1C0F1D1#writeContract).
