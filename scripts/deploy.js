@@ -6,8 +6,8 @@ async function main() {
 
   const SplitterContract = await ethers.getContractFactory("BmClubSplitter");
 
-  const secondaryMarketAddresses = process.env.mumbaiSecondaryAddresses.split(',');
-  const secondaryMarketPrecentages = process.env.mumbaiSecondaryPercentages.split(',');
+  const secondaryMarketAddresses = process.env.bsc_tesnet_SecondaryAddresses.split(',');
+  const secondaryMarketPrecentages = process.env.bsc_tesnet_SecondaryPercentages.split(',');
 
   const secondaryMarketIntPercentages = secondaryMarketPrecentages.map(str => {
       return Number(str);
