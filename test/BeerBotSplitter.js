@@ -1,7 +1,5 @@
 require('dotenv').config();
 const { expect } = require("chai");
-// const { ethers } = require("hardhat");
-// const { BigNumber } = require('ethers');
 
 describe("Splitter tests...", () => {
     const setupBeerBotSplitter = async ({         
