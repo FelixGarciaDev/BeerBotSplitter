@@ -1,10 +1,22 @@
 # BeerBot Team Splitter contract
 
-This contract was deployed on bnb chain.
+### BNB chain Tesnet
+
+This contract was deployed on bnb chain (tesnet).
 ```
 BNB chain tesnet Contract address = 0x6cFDd82Cf27637Bc8467d889C28efb69A2c84bc9
 ```
 intract with it in explorer [https://testnet.bscscan.com/address/0x6cFDd82Cf27637Bc8467d889C28efb69A2c84bc9](https://testnet.bscscan.com/address/0x6cFDd82Cf27637Bc8467d889C28efb69A2c84bc9).
+
+
+### BNB chain MainNet
+
+This contract was deployed on bnb chain.
+```
+BNB chain tesnet Contract address = 0x6cFDd82Cf27637Bc8467d889C28efb69A2c84bc9
+```
+intract with it in explorer [https://bscscan.com/address/0x6cFDd82Cf27637Bc8467d889C28efb69A2c84bc9](https://bscscan.com/address/0x6cFDd82Cf27637Bc8467d889C28efb69A2c84bc9).
+
 
 ### About this contract
 

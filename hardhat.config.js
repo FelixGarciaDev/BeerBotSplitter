@@ -21,18 +21,18 @@ module.exports = {
       ]
     },
     bsc_testnet: {      
-      url: "https://data-seed-prebsc-1-s3.binance.org:8545",
+      url: process.env.bsc_tesnet_node_url,
       chainId: 97,      
       accounts: [
         process.env.bsc_tesnet_account
       ]
-     }//,
-    // bsc_mainnet: {
-    //   url: "https://bsc-dataseed.binance.org/",      
-    //   chainId: 56,      
-    //   accounts: [
-    //     process.env.bsc_mainnet_account
-    //   ]
-    // }
+    },
+    bsc_mainnet: {
+      url: process.env.bsc_mainnet_node_url,
+      chainId: 56,      
+      accounts: [
+        process.env.bsc_mainnet_account
+      ]
+    }
   }
 };

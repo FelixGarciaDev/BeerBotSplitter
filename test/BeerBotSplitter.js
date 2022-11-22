@@ -17,7 +17,7 @@ describe("Splitter tests...", () => {
         ],
     }) => {
         const [creator, leadDude, artirstDude, devDude, someDudeOne, somdeDudeTwo, holders, project] = await ethers.getSigners();
-        const Splitter = await ethers.getContractFactory("BmClubSplitter");        
+        const Splitter = await ethers.getContractFactory("BeerBotSplitter");        
         const deployedSplitter = await Splitter.deploy(secondaryMarketAddresses, secondaryMarketPercentages);
         
         return {
